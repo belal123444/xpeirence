@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply Now</title>
+</head>
+<body>
+
+    <h1>Apply Now for Our Course</h1>
+
+    <p>
+        <b>
+            Thank you for your interest in applying for our course.
+            Please fill out the form below to submit your application.
+        </b>
+        <a href="index.html">Xperience Courses</a>
+    </p>
+
+    <form action="#" method="post">
+
+        <table>
+            <caption>Application Form</caption>
+
+            <tr>
+                <td><label for="firstName">First Name</label></td>
+                <td>
+                    <input type="text" id="firstName"
+                           name="firstName" placeholder="First Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="lastName">Last Name</label></td>
+                <td>
+                    <input type="text" id="lastName"
+                           name="lastName" placeholder="Last Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="male"
+                           name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <br>
+
+                    <input type="radio" id="female"
+                           name="gender" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Education</td>
+                <td>
+                    <input type="radio" id="school"
+                           name="education" value="School Student">
+                    <label for="school">School Student</label>
+                    <br>
+
+                    <input type="radio" id="undergraduate"
+                           name="education" value="Undergraduate">
+                    <label for="undergraduate">Undergraduate</label>
+                    <br>
+
+                    <input type="radio" id="graduate"
+                           name="education" value="Graduate">
+                    <label for="graduate">Graduate</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="bio">Bio</label></td>
+                <td>
+                    <textarea id="bio" name="bio"
+                              rows="5" cols="20"
+                              placeholder="Tell us about yourself!"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="birthDate">Birth date</label></td>
+                <td>
+                    <input type="date" id="birthDate"
+                           name="birthDate">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="course">Course</label></td>
+                <td>
+                    <select id="course" name="course">
+                        <option value="">Select Course</option>
+                        <option value="Front-end">Front-end</option>
+                        <option value="Back-End">Back-End</option>
+                        <option value="Flutter">Flutter</option>
+                        <option value="Network">Network</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Terms and conditions</td>
+                <td>
+                    <input type="checkbox" id="terms"
+                           name="terms" value="Agreed">
+                    <label for="terms">I Agree</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>
